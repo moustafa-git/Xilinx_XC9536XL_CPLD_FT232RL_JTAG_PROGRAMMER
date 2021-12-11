@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="and_module.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="and_.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="and_.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="and_.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="and_.jed"/>
+    <file xil_pn:fileType="FILE_LFP" xil_pn:name="and_.lfp"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="and_.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="and_.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="and_.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="and_.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="and_.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="and_.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="and_.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="and_.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="and_.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="and_.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="and_.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="and_.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="and_.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="and_.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="and_.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="and_.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="and_.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="and__build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="and__html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="and__ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="and__pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="and__summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="and__xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1639230908" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1639230908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639230908" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7365508630569263641" xil_pn:start_ts="1639230908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231125" xil_pn:in_ck="3930283222" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="4793571538393205154" xil_pn:start_ts="1639231112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="and_.lso"/>
+      <outfile xil_pn:name="and_.ngc"/>
+      <outfile xil_pn:name="and_.ngr"/>
+      <outfile xil_pn:name="and_.prj"/>
+      <outfile xil_pn:name="and_.stx"/>
+      <outfile xil_pn:name="and_.syr"/>
+      <outfile xil_pn:name="and_.xst"/>
+      <outfile xil_pn:name="and__xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231633" xil_pn:in_ck="4280078431038" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="123229027435510388" xil_pn:start_ts="1639231633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231639" xil_pn:in_ck="-2344508986202635978" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="8465332805442392485" xil_pn:start_ts="1639231633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="and_.bld"/>
+      <outfile xil_pn:name="and_.ngd"/>
+      <outfile xil_pn:name="and__ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231647" xil_pn:in_ck="4280078423545" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-4008624986295156976" xil_pn:start_ts="1639231639">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="and_.gyd"/>
+      <outfile xil_pn:name="and_.mfd"/>
+      <outfile xil_pn:name="and_.nga"/>
+      <outfile xil_pn:name="and_.pad"/>
+      <outfile xil_pn:name="and_.pnx"/>
+      <outfile xil_pn:name="and_.rpt"/>
+      <outfile xil_pn:name="and_.tim"/>
+      <outfile xil_pn:name="and_.tspec"/>
+      <outfile xil_pn:name="and_.vm6"/>
+      <outfile xil_pn:name="and_.xml"/>
+      <outfile xil_pn:name="and__build.xml"/>
+      <outfile xil_pn:name="and__html"/>
+      <outfile xil_pn:name="and__pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231649" xil_pn:in_ck="4280078432409" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1639231647">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="and_.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231287" xil_pn:in_ck="4280078432409" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1639231284">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1639231134" xil_pn:in_ck="-2344507579794017737" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1639231134">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

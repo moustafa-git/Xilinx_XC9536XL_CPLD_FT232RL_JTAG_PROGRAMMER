@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/and_module/and_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/and_module/and_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc and_.ucf -p xc9536xl-PC44-10 "and_.ngc" and_.ngd  
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 "and_.ngc" and_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper and_.ngd 
+XSLTProcess and__build.xml 
+tsim -intstyle ise and_ and_.nga 
+taengine -intstyle ise -f and_ -w --format html1 -l and__html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n and_ -i and_ 
+ngdbuild -intstyle ise -dd _ngo -uc and_.ucf -p xc9536xl-PC44-10 "and_.ngc" and_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper and_.ngd 
+XSLTProcess and__build.xml 
+ngdbuild -intstyle ise -dd _ngo -uc and_.ucf -p xc9536xl-PC44-10 "and_.ngc" and_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper and_.ngd 
+XSLTProcess and__build.xml 
+tsim -intstyle ise and_ and_.nga 
+hprep6 -s IEEE1149 -n and_ -i and_ 
+ngdbuild -intstyle ise -dd _ngo -uc and_.ucf -p xc9536xl-PC44-10 "and_.ngc" and_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper and_.ngd 
+XSLTProcess and__build.xml 
+tsim -intstyle ise and_ and_.nga 
+hprep6 -s IEEE1149 -n and_ -i and_ 
