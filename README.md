@@ -16,5 +16,17 @@ Interface the JTAG pins with the FT232RL as mentioned in the table below.
 | Pin 17 (TCK)    | RTS|
 | Pin 30 (TDO)    | CTS|
 
+## SVF File Generation
+1. Set the environment variable XILINX to the directory containing ISE.
+2. Put the path in the directory where iMPACT.exe is located (...\Xilinx\14.7\ISE_DS\ISE\bin\nt64).
+3. Create a text file script.txt like the one below.
+setMode -bsfile
+setCable -port svf -file xxx.svf
+addDevice -position 1 -file xxx.jed
+Program -p 1 -e -v
+exit
+4. At the command prompt, do the following:
+impact -batch script.txt
+
 ## SVF Player Software
 Download:[PROG_CPLD.zip](https://github.com/mostafa-1997/Xilinx_XC9536XL_CPLD_FT232RL_JTAG_PROGRAMMER/files/7697485/PROG_CPLD.zip)
