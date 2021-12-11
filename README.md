@@ -17,4 +17,4 @@ Interface the JTAG pins with the FT232RL as mentioned in the table below.
 | Pin 30 (TDO)    | CTS|
 
 ## SVF Player Software
-Download:
+Download:[PROG_CPLD.zip](https://github.com/mostafa-1997/Xilinx_XC9536XL_CPLD_FT232RL_JTAG_PROGRAMMER/files/7697485/PROG_CPLD.zip)
