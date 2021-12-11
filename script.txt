@@ -1,5 +1,5 @@
 setMode -bsfile
-setCable -port svf -file and_.svf
-addDevice -position 1 -file and_.jed
+setCable -port svf -file xxx.svf
+addDevice -position 1 -file xxx.jed
 program -p 1 -e -v
 exit
