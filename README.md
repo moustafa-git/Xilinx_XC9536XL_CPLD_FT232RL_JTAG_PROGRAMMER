@@ -57,3 +57,9 @@ If programmed correctly,<br />
 If you omit the -c option, this message will not appear.
 ## SVF Player Software
 Download:[PROG_CPLD.zip](https://github.com/mostafa-1997/Xilinx_XC9536XL_CPLD_FT232RL_JTAG_PROGRAMMER/files/7697485/PROG_CPLD.zip)
+
+## Reference
+https://tulip-house.ddo.jp/digital/PROG_CPLD/index.html
+
+## Detailed video
+In progress...
