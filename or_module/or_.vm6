@@ -1,0 +1,66 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | or_ | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_IBUF | or__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b | 27 | PI | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_IBUF | 23 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_IBUF | or__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a | 28 | PI | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_IBUF | 24 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | Inv+OptxMapped | c_OBUF | or__COPY_0_COPY_0 | 2155872512 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_IBUF | 23 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_IBUF | 24 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_OBUF | 25 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | c_OBUF.Q | c_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | c_OBUF.SI | c_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_IBUF | 23 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_IBUF | 24 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_OBUF.D1 | 30 | ? | 0 | 4096 | c_OBUF | NULL | NULL | c_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_OBUF.D2 | 31 | ? | 0 | 4096 | c_OBUF | NULL | NULL | c_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | b_IBUF | IV_FALSE | a_IBUF
+
+SRFF_INSTANCE | c_OBUF.REG | c_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_OBUF.D | 29 | ? | 0 | 0 | c_OBUF | NULL | NULL | c_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_OBUF.Q | 32 | ? | 0 | 0 | c_OBUF | NULL | NULL | c_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | c | or__COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_OBUF | 25 | ? | 0 | 0 | or__COPY_0_COPY_0 | NULL | c_OBUF.Q | c_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c | 26 | PO | 0 | 0 | or__COPY_0_COPY_0 | NULL | NULL | c | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | or__COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR2_ | or__COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 4 | c_OBUF | 1 | NULL | 0 | c | 1 | 43 | 49152
+FBPIN | 8 | NULL | 0 | a_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 16 | NULL | 0 | b_IBUF | 1 | NULL | 0 | 26 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | or__COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 2 | a | 37 | 15 | b | 26
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 51 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

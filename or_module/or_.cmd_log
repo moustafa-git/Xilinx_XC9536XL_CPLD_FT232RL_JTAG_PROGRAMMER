@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/or_module/or_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/or_module/or_.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 "or_.ngc" or_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper or_.ngd 
+XSLTProcess or__build.xml 
+tsim -intstyle ise or_ or_.nga 
+taengine -intstyle ise -f or_ -w --format html1 -l or__html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n or_ -i or_ 
+ngdbuild -intstyle ise -dd _ngo -uc or_.ucf -p xc9536xl-PC44-10 "or_.ngc" or_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper or_.ngd 
+XSLTProcess or__build.xml 
+tsim -intstyle ise or_ or_.nga 
+hprep6 -s IEEE1149 -n or_ -i or_ 
