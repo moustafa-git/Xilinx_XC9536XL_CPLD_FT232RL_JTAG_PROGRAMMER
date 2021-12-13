@@ -1,6 +1,6 @@
 # Xilinx XC9536XL CPLD JTAG Programmer using FT232RL FTDI
 This repo shows how to make a JTAG programmer using the FT232RL FTDI for the Xilinx CPLD XC9536XL along with some applications:<br />
-+ Implementing a simple **AND** logic gate.
++ Implementing a simple **AND** | **OR** logic gate.
 ## Schematic
 [Xilinx_CPLD_XC9536XL_FT232RL_Schematic.pdf](https://github.com/mostafa-1997/Xilinx_XC9536XL_CPLD_FT232RL_JTAG_PROGRAMMER/files/7697454/Xilinx_CPLD_XC9536XL_FT232RL_Schematic.pdf)
 
