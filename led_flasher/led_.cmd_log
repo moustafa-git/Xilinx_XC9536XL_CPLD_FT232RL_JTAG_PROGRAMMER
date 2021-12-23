@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc led_.ucf -p xc9536xl-PC44-10 "led_.ngc" led_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper led_.ngd 
+ngdbuild -intstyle ise -dd _ngo -uc led_.ucf -p xc9536xl-PC44-10 "led_.ngc" led_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper led_.ngd 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/led_flasher/led_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc led_.ucf -p xc9536xl-PC44-10 "led_.ngc" led_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper led_.ngd 
+XSLTProcess led__build.xml 
+tsim -intstyle ise led_ led_.nga 
+hprep6 -s IEEE1149 -n led_ -i led_ 
+ngdbuild -intstyle ise -dd _ngo -uc led_.ucf -p xc9536xl-PC44-10 "led_.ngc" led_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper led_.ngd 
+XSLTProcess led__build.xml 
+tsim -intstyle ise led_ led_.nga 
+hprep6 -s IEEE1149 -n led_ -i led_ 
