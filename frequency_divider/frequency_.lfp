@@ -1,0 +1,5 @@
+# begin LFP file D:\Mostafa\College\Semester 9\Computer Architecture\CPLD Project\frequency_divider\frequency_.lfp
+designfile frequency_.v
+parttype xc9536xl-pc44-10
+bus_delimiter 0;
+set_busdelim_onsave 1;

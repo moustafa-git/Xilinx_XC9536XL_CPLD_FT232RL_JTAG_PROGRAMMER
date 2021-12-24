@@ -1,0 +1,531 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | frequency_ | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | swbtn_3_IBUF | frequency__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | swbtn_3 | 798 | PI | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | swbtn_2_IBUF | frequency__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | swbtn_2 | 799 | PI | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | swbtn_1_IBUF | frequency__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | swbtn_1 | 800 | PI | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | frequency__COPY_0_COPY_0 | 16 | 1 | 2
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 801 | PI | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | clk_IBUF | 785 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | swbtn_4_IBUF | frequency__COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | swbtn_4 | 802 | PI | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldHigh+OptxMapped | def | frequency__COPY_0_COPY_0 | 2155872768 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | def | 787 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | def.Q | def | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | def | 787 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | def.Q | def | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | def.SI | def | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | def | 787 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | def.Q | def | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | def.D1 | 804 | ? | 0 | 4096 | def | NULL | NULL | def.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | def.D2 | 805 | ? | 0 | 4096 | def | NULL | NULL | def.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_TRUE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF
+SPPTERM | 4 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_TRUE | def | IV_FALSE | swbtn_4_IBUF
+
+SRFF_INSTANCE | def.REG | def | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | def.D | 803 | ? | 0 | 0 | def | NULL | NULL | def.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | def.Q | 806 | ? | 0 | 0 | def | NULL | NULL | def.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | newclk | frequency__COPY_0_COPY_0 | 2155873280 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 841 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP5_.EXP | 842 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | newclk.SI | newclk | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 841 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP5_.EXP | 842 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | newclk.D1 | 808 | ? | 0 | 4096 | newclk | NULL | NULL | newclk.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | newclk.D2 | 809 | ? | 0 | 4096 | newclk | NULL | NULL | newclk.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP4_.EXP
+SPPTERM | 1 | IV_TRUE | EXP5_.EXP
+SPPTERM | 3 | IV_TRUE | swbtn_4_IBUF | IV_FALSE | count<0> | IV_TRUE | count<2>
+SPPTERM | 3 | IV_TRUE | swbtn_4_IBUF | IV_FALSE | count<1> | IV_TRUE | count<2>
+SPPTERM | 4 | IV_FALSE | swbtn_3_IBUF | IV_TRUE | swbtn_2_IBUF | IV_FALSE | swbtn_4_IBUF | IV_FALSE | count<0>
+SPPTERM | 5 | IV_FALSE | swbtn_1_IBUF | IV_FALSE | count<0> | IV_TRUE | count<1> | IV_TRUE | bool4 | IV_TRUE | count<2>
+SPPTERM | 6 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_1_IBUF | IV_FALSE | count<1> | IV_TRUE | bool4 | IV_TRUE | count<2>
+
+SRFF_INSTANCE | newclk.REG | newclk | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | newclk.D | 807 | ? | 0 | 0 | newclk | NULL | NULL | newclk.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | newclk.Q | 810 | ? | 0 | 0 | newclk | NULL | NULL | newclk.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | count<0> | frequency__COPY_0_COPY_0 | 2155877376 | 1 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | count<0>.SI | count<0> | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | count<0>.D1 | 812 | ? | 0 | 4096 | count<0> | NULL | NULL | count<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | count<0>.D2 | 813 | ? | 0 | 4096 | count<0> | NULL | NULL | count<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+
+SRFF_INSTANCE | count<0>.REG | count<0> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | count<0>.D | 811 | ? | 0 | 0 | count<0> | NULL | NULL | count<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | count<0>.Q | 814 | ? | 0 | 0 | count<0> | NULL | NULL | count<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | count<1> | frequency__COPY_0_COPY_0 | 2155877376 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | count<1>.SI | count<1> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | count<1>.D1 | 816 | ? | 0 | 0 | count<1> | NULL | NULL | count<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | count<1>.D2 | 817 | ? | 0 | 4096 | count<1> | NULL | NULL | count<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | count<0>
+
+SRFF_INSTANCE | count<1>.REG | count<1> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | count<1>.D | 815 | ? | 0 | 0 | count<1> | NULL | NULL | count<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | count<1>.Q | 818 | ? | 0 | 0 | count<1> | NULL | NULL | count<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | bool2 | frequency__COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool2 | 792 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool2.Q | bool2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | bool2 | 792 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool2.Q | bool2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | bool2.SI | bool2 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool2 | 792 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool2.Q | bool2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | bool2.D1 | 820 | ? | 0 | 4096 | bool2 | NULL | NULL | bool2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | bool2.D2 | 821 | ? | 0 | 4096 | bool2 | NULL | NULL | bool2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | swbtn_3_IBUF | IV_TRUE | swbtn_2_IBUF | IV_FALSE | swbtn_4_IBUF
+SPPTERM | 4 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | bool2
+
+SRFF_INSTANCE | bool2.REG | bool2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | bool2.D | 819 | ? | 0 | 0 | bool2 | NULL | NULL | bool2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | bool2.Q | 822 | ? | 0 | 0 | bool2 | NULL | NULL | bool2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | bool3 | frequency__COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool3 | 793 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool3.Q | bool3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | bool3 | 793 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool3.Q | bool3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | bool3.SI | bool3 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool3 | 793 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool3.Q | bool3 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | bool3.D1 | 824 | ? | 0 | 4096 | bool3 | NULL | NULL | bool3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | bool3.D2 | 825 | ? | 0 | 4096 | bool3 | NULL | NULL | bool3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | swbtn_3_IBUF | IV_FALSE | swbtn_4_IBUF
+SPPTERM | 4 | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | bool3
+
+SRFF_INSTANCE | bool3.REG | bool3 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | bool3.D | 823 | ? | 0 | 0 | bool3 | NULL | NULL | bool3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | bool3.Q | 826 | ? | 0 | 0 | bool3 | NULL | NULL | bool3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | bool4 | frequency__COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | bool4.SI | bool4 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | bool4.D1 | 828 | ? | 0 | 4096 | bool4 | NULL | NULL | bool4.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | bool4.D2 | 829 | ? | 0 | 4096 | bool4 | NULL | NULL | bool4.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | swbtn_4_IBUF
+SPPTERM | 4 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_1_IBUF | IV_TRUE | bool4
+
+SRFF_INSTANCE | bool4.REG | bool4 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | bool4.D | 827 | ? | 0 | 0 | bool4 | NULL | NULL | bool4.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | bool4.Q | 830 | ? | 0 | 0 | bool4 | NULL | NULL | bool4.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | count<2> | frequency__COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | count<2>.SI | count<2> | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | count<2>.D1 | 832 | ? | 0 | 0 | count<2> | NULL | NULL | count<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | count<2>.D2 | 833 | ? | 0 | 4096 | count<2> | NULL | NULL | count<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | count<0> | IV_TRUE | count<1>
+
+SRFF_INSTANCE | count<2>.REG | count<2> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | count<2>.D | 831 | ? | 0 | 0 | count<2> | NULL | NULL | count<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 786 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | count<2>.Q | 834 | ? | 0 | 0 | count<2> | NULL | NULL | count<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | led_OBUF | frequency__COPY_0_COPY_0 | 2155872256 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF | 785 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | def | 787 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | def.Q | def | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led_OBUF | 796 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | led_OBUF.Q | led_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led_OBUF.SI | led_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF | 785 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | def | 787 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | def.Q | def | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led_OBUF.D1 | 836 | ? | 0 | 4096 | led_OBUF | NULL | NULL | led_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led_OBUF.D2 | 837 | ? | 0 | 4096 | led_OBUF | NULL | NULL | led_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | clk_IBUF | IV_TRUE | def
+SPPTERM | 2 | IV_FALSE | def | IV_TRUE | newclk
+
+SRFF_INSTANCE | led_OBUF.REG | led_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led_OBUF.D | 835 | ? | 0 | 0 | led_OBUF | NULL | NULL | led_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led_OBUF.Q | 838 | ? | 0 | 0 | led_OBUF | NULL | NULL | led_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led | frequency__COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led_OBUF | 796 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | led_OBUF.Q | led_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led | 797 | PO | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | led | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | EXP4_ | frequency__COPY_0_COPY_0 | 2147483648 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP4_.EXP | 841 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP4_.SI | EXP4_ | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP4_.EXP | 839 | ? | 0 | 0 | EXP4_ | NULL | NULL | EXP4_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_TRUE | swbtn_3_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | count<0> | IV_FALSE | count<1>
+SPPTERM | 4 | IV_TRUE | swbtn_3_IBUF | IV_FALSE | swbtn_4_IBUF | IV_FALSE | count<0> | IV_TRUE | count<1>
+SPPTERM | 4 | IV_TRUE | swbtn_4_IBUF | IV_TRUE | count<0> | IV_TRUE | count<1> | IV_FALSE | count<2>
+SPPTERM | 5 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_TRUE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | newclk
+
+MACROCELL_INSTANCE | NULL | EXP5_ | frequency__COPY_0_COPY_0 | 2147483648 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool3 | 793 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool3.Q | bool3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool2 | 792 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool2.Q | bool2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP5_.EXP | 842 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP5_.SI | EXP5_ | 0 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_1_IBUF | 784 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_4_IBUF | 788 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<0> | 790 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<0>.Q | count<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<1> | 791 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<1>.Q | count<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool3 | 793 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool3.Q | bool3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool4 | 794 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool4.Q | bool4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_3_IBUF | 782 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | swbtn_2_IBUF | 783 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | NULL | swbtn_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | count<2> | 795 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | count<2>.Q | count<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newclk | 789 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | newclk.Q | newclk | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bool2 | 792 | ? | 0 | 0 | frequency__COPY_0_COPY_0 | NULL | bool2.Q | bool2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP5_.EXP | 840 | ? | 0 | 0 | EXP5_ | NULL | NULL | EXP5_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_FALSE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_FALSE | count<0> | IV_TRUE | count<1> | IV_TRUE | bool3 | IV_FALSE | bool4
+SPPTERM | 7 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_1_IBUF | IV_TRUE | count<0> | IV_TRUE | count<1> | IV_TRUE | bool4 | IV_FALSE | count<2>
+SPPTERM | 7 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | newclk | IV_FALSE | bool2 | IV_FALSE | bool3 | IV_FALSE | bool4
+SPPTERM | 7 | IV_FALSE | swbtn_3_IBUF | IV_FALSE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_FALSE | count<0> | IV_TRUE | bool2 | IV_FALSE | bool3 | IV_FALSE | bool4
+SPPTERM | 7 | IV_FALSE | swbtn_2_IBUF | IV_FALSE | swbtn_1_IBUF | IV_FALSE | swbtn_4_IBUF | IV_TRUE | count<0> | IV_FALSE | count<1> | IV_TRUE | bool3 | IV_FALSE | bool4
+
+FB_INSTANCE | FOOBAR1_ | frequency__COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | NULL | 0 | clk_IBUF | 1 | NULL | 0 | 5 | 57344
+FBPIN | 16 | EXP4_ | 1 | NULL | 0 | NULL | 0 | 22 | 49152
+FBPIN | 17 | newclk | 1 | NULL | 0 | NULL | 0 | 24 | 49152
+FBPIN | 18 | EXP5_ | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | frequency__COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 4 | led_OBUF | 1 | NULL | 0 | led | 1 | 43 | 49152
+FBPIN | 11 | NULL | 0 | swbtn_1_IBUF | 1 | NULL | 0 | 34 | 49152
+FBPIN | 12 | count<2> | 1 | swbtn_2_IBUF | 1 | NULL | 0 | 33 | 49152
+FBPIN | 13 | count<1> | 1 | NULL | 0 | NULL | 0 | 29 | 49152
+FBPIN | 14 | count<0> | 1 | NULL | 0 | NULL | 0 | 28 | 49152
+FBPIN | 15 | def | 1 | swbtn_3_IBUF | 1 | NULL | 0 | 27 | 49152
+FBPIN | 16 | bool4 | 1 | swbtn_4_IBUF | 1 | NULL | 0 | 26 | 49152
+FBPIN | 17 | bool3 | 1 | NULL | 0 | NULL | 0 | 25 | 49152
+FBPIN | 18 | bool2 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | frequency__COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 3 | swbtn_1 | 34 | 5 | swbtn_2 | 33 | 12 | count<1> | NULL | 13 | count<0> | NULL | 15 | bool4 | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 17 | bool2 | NULL | 20 | swbtn_3 | 27 | 25 | bool3 | NULL | 41 | newclk | NULL | 51 | count<2> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 53 | swbtn_4 | 26
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | 39 | -1 | 41 | -1 | -1 | -1 | -1 | -1 | -1 | 30 | 31 | -1 | 33 | -1 | 35 | -1 | -1 | 49 | -1 | -1 | -1 | -1 | 34 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 29 | -1 | 51
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 3 | swbtn_1 | 34 | 5 | swbtn_2 | 33 | 6 | clk | 5 | 12 | count<1> | NULL | 13 | count<0> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 15 | bool4 | NULL | 17 | bool2 | NULL | 20 | swbtn_3 | 27 | 25 | bool3 | NULL | 36 | def | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 41 | newclk | NULL | 53 | swbtn_4 | 26
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | 39 | -1 | 41 | 60 | -1 | -1 | -1 | -1 | -1 | 30 | 31 | -1 | 33 | -1 | 35 | -1 | -1 | 49 | -1 | -1 | -1 | -1 | 34 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 32 | -1 | -1 | -1 | -1 | 16 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 51
+
+
+GLOBAL_FCLK | clk | 0 | 0

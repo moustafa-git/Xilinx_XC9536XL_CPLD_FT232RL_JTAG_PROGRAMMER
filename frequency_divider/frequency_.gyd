@@ -1,0 +1,19 @@
+Pin Freeze File:  version P.20131013
+
+9536XL44PC XC9536XL-10-PC44
+clk S:PIN5
+swbtn_1 S:PIN34
+swbtn_2 S:PIN33
+swbtn_3 S:PIN27
+swbtn_4 S:PIN26
+led S:PIN43
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_16 EXP4_ newclk EXP5_
+PARTITION FB2_4 led_OBUF
+PARTITION FB2_12 count<2> count<1> count<0> def
+		 bool4 bool3 bool2
+

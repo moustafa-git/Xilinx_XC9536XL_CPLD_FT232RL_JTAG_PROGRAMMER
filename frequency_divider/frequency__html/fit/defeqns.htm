@@ -1,0 +1,73 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_bool2: FDCPE port map (bool2,bool2_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool2_D <= ((NOT swbtn_3 AND swbtn_2 AND NOT swbtn_4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_1 AND NOT swbtn_4 AND bool2));
+</td></tr><tr><td>
+FDCPE_bool3: FDCPE port map (bool3,bool3_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool3_D <= ((swbtn_3 AND NOT swbtn_4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_2 AND NOT swbtn_1 AND NOT swbtn_4 AND bool3));
+</td></tr><tr><td>
+FDCPE_bool4: FDCPE port map (bool4,bool4_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool4_D <= ((swbtn_4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND NOT swbtn_1 AND bool4));
+</td></tr><tr><td>
+FTCPE_count0: FTCPE port map (count(0),'1',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_count1: FTCPE port map (count(1),count(0),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_count2: FTCPE port map (count(2),count_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(2) <= (count(0) AND count(1));
+</td></tr><tr><td>
+FDCPE_def: FDCPE port map (def,def_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def_D <= ((NOT swbtn_3 AND NOT swbtn_2 AND swbtn_1 AND NOT swbtn_4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND def AND NOT swbtn_4));
+</td></tr><tr><td>
+</td></tr><tr><td>
+led <= ((clk AND def)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT def AND newclk));
+</td></tr><tr><td>
+FDCPE_newclk: FDCPE port map (newclk,newclk_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newclk_D <= ((swbtn_3 AND NOT swbtn_4 AND count(0) AND NOT count(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (swbtn_3 AND NOT swbtn_4 AND NOT count(0) AND count(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (swbtn_4 AND count(0) AND count(1) AND NOT count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND swbtn_1 AND NOT swbtn_4 AND newclk)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_1 AND NOT swbtn_4 AND NOT count(0) AND count(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	bool3 AND NOT bool4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND NOT swbtn_1 AND count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(1) AND bool4 AND NOT count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND NOT swbtn_4 AND newclk AND NOT bool2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT bool3 AND NOT bool4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_1 AND NOT swbtn_4 AND NOT count(0) AND bool2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT bool3 AND NOT bool4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_2 AND NOT swbtn_1 AND NOT swbtn_4 AND count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(1) AND bool3 AND NOT bool4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (swbtn_4 AND NOT count(0) AND count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (swbtn_4 AND NOT count(1) AND count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND swbtn_2 AND NOT swbtn_4 AND NOT count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_1 AND NOT count(0) AND count(1) AND bool4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT swbtn_3 AND NOT swbtn_2 AND NOT swbtn_1 AND NOT count(1) AND bool4 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(2)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

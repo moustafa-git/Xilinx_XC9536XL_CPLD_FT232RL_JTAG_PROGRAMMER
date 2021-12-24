@@ -1,0 +1,9 @@
+AUTO_TS_P2P:FROM:clk:TO:led:1
+AUTO_TS_F2P:FROM:newclk.Q:TO:led:1
+AUTO_TS_F2F:FROM:count<0>.Q:TO:newclk.D:1
+AUTO_TS_F2F:FROM:count<1>.Q:TO:newclk.D:1
+AUTO_TS_P2F:FROM:clk:TO:newclk.D:1
+AUTO_TS_F2F:FROM:count<0>.Q:TO:count<1>.D:1
+AUTO_TS_P2F:FROM:clk:TO:count<1>.D:1
+AUTO_TS_P2F:FROM:clk:TO:FCLKIO_0:1
+AUTO_TS_P2F:FROM:swbtn_1:TO:newclk.CE:1

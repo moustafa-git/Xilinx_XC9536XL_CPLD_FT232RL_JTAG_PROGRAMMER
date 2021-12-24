@@ -1,0 +1,182 @@
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+taengine -intstyle ise -f frequency_ -w --format html1 -l frequency__html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
+xst -intstyle ise -ifn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.xst" -ofn "D:/Mostafa/College/Semester 9/Computer Architecture/CPLD Project/frequency_divider/frequency_.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc frequency_.ucf -p xc9536xl-PC44-10 "frequency_.ngc" frequency_.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper frequency_.ngd 
+XSLTProcess frequency__build.xml 
+tsim -intstyle ise frequency_ frequency_.nga 
+hprep6 -s IEEE1149 -n frequency_ -i frequency_ 
